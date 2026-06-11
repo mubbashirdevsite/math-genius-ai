@@ -1,0 +1,108 @@
+<section class="page quiz-page">
+
+    <div class="quiz-header">
+
+        <h1>Quiz Challenge ◈</h1>
+
+        <p>
+            Test your knowledge and improve skills.
+        </p>
+
+    </div>
+
+    <div class="quiz-settings">
+
+        <select id="quizCategory">
+
+            <option value="algebra">
+                Algebra
+            </option>
+
+            <option value="geometry">
+                Geometry
+            </option>
+
+            <option value="calculus">
+                Calculus
+            </option>
+
+        </select>
+
+        <select id="quizDifficulty">
+
+            <option value="easy">
+                Easy
+            </option>
+
+            <option value="medium">
+                Medium
+            </option>
+
+            <option value="hard">
+                Hard
+            </option>
+
+        </select>
+
+        <button
+            class="btn btn-primary"
+            onclick="startQuiz()">
+
+            Start Quiz
+
+        </button>
+
+    </div>
+
+    <div
+        id="quizContainer"
+        class="hidden">
+
+        <div class="quiz-progress">
+
+            <span id="questionCounter">
+                Question 1/5
+            </span>
+
+            <span id="scoreCounter">
+                Score: 0
+            </span>
+
+        </div>
+
+        <div class="question-card">
+
+            <h2 id="questionText">
+            </h2>
+
+            <div
+                id="answersContainer"
+                class="answers-grid">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div
+        id="resultCard"
+        class="result-card hidden">
+
+        <h2>
+            Quiz Completed 🎉
+        </h2>
+
+        <div id="finalScore">
+        </div>
+
+        <button
+            class="btn btn-primary"
+            onclick="restartQuiz()">
+
+            Play Again
+
+        </button>
+
+    </div>
+
+</section>

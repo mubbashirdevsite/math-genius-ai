@@ -1,0 +1,166 @@
+.home-page{
+    max-width:1200px;
+    margin:auto;
+}
+
+.hero-section{
+
+    text-align:center;
+
+    padding:60px 30px;
+
+    border-radius:25px;
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(108,99,255,.2),
+        rgba(0,212,170,.15)
+    );
+
+    margin-bottom:25px;
+}
+
+.hero-icon{
+    font-size:70px;
+    margin-bottom:10px;
+}
+
+.hero-section h1{
+
+    font-size:42px;
+    font-weight:900;
+
+    margin-bottom:10px;
+
+    background:
+    linear-gradient(
+        135deg,
+        var(--accent),
+        var(--teal)
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.hero-section p{
+    color:var(--muted);
+    margin-bottom:25px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn-primary{
+    background:var(--accent);
+    color:white;
+}
+
+.btn-secondary{
+    background:var(--surface);
+    color:var(--text);
+    border:1px solid var(--border);
+}
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:15px;
+
+    margin-bottom:30px;
+}
+
+.stat-card{
+
+    background:var(--card);
+
+    border:
+    1px solid var(--border);
+
+    border-radius:15px;
+
+    text-align:center;
+
+    padding:20px;
+}
+
+.stat-card h2{
+    color:var(--accent);
+}
+
+.quick-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+    gap:15px;
+
+    margin-top:15px;
+}
+
+.quick-card{
+
+    background:var(--card);
+
+    border:
+    1px solid var(--border);
+
+    border-radius:16px;
+
+    padding:20px;
+
+    display:flex;
+    gap:15px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.quick-card:hover{
+    transform:translateY(-4px);
+}
+
+.quick-card span{
+    font-size:28px;
+}
+
+.quick-card p{
+    color:var(--muted);
+    font-size:13px;
+}
+
+.premium-card{
+
+    margin-top:25px;
+
+    padding:25px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(255,184,0,.15),
+        rgba(108,99,255,.15)
+    );
+}
+
+.btn-gold{
+    margin-top:15px;
+    background:var(--gold);
+    color:black;
+}

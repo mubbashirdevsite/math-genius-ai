@@ -1,0 +1,61 @@
+.graph-page{
+    max-width:1100px;
+    margin:auto;
+}
+
+.graph-controls{
+
+    display:flex;
+    gap:10px;
+
+    margin-bottom:20px;
+}
+
+.graph-controls input{
+
+    flex:1;
+
+    padding:12px;
+
+    border-radius:12px;
+
+    background:var(--surface);
+
+    color:var(--text);
+
+    border:1px solid var(--border);
+}
+
+#graphCanvas{
+
+    width:100%;
+
+    border-radius:18px;
+
+    border:1px solid var(--border);
+
+    background:var(--card);
+}
+
+.quick-functions{
+
+    margin-top:20px;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+}
+
+.quick-functions button{
+
+    padding:8px 15px;
+
+    border-radius:25px;
+
+    background:
+    rgba(108,99,255,.15);
+
+    color:var(--accent);
+}

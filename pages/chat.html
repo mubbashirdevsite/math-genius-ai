@@ -1,0 +1,54 @@
+<section class="page chat-page">
+
+    <h1>AI Math Tutor ⊙</h1>
+
+    <p class="chat-subtitle">
+        Your personal AI math teacher
+    </p>
+
+    <div id="chatMessages" class="chat-container">
+
+        <div class="ai-message">
+            <strong>🧠 Math Genius AI</strong>
+            <p>
+                Hi! Ask me any math question from
+                basic arithmetic to PhD level.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="quick-prompts">
+
+        <button onclick="setPrompt('What is calculus?')">
+            What is calculus?
+        </button>
+
+        <button onclick="setPrompt('Explain integration')">
+            Explain integration
+        </button>
+
+        <button onclick="setPrompt('Urdu mein samjhao')">
+            Urdu mein samjhao
+        </button>
+
+        <button onclick="setPrompt('Show an example')">
+            Show an example
+        </button>
+
+    </div>
+
+    <div class="chat-input-area">
+
+        <input
+            id="chatInput"
+            placeholder="Ask any math question..."
+        >
+
+        <button onclick="sendMessage()">
+            Send ➤
+        </button>
+
+    </div>
+
+</section>

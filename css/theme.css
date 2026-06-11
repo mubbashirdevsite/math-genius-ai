@@ -1,0 +1,47 @@
+:root{
+
+    --dark-bg:#0A0A0F;
+    --dark-surface:#12121A;
+    --dark-card:#1A1A26;
+    --dark-border:#2A2A3E;
+    --dark-text:#E8E8F0;
+    --dark-muted:#8888AA;
+
+    --light-bg:#F0F0FF;
+    --light-surface:#FFFFFF;
+    --light-card:#F8F8FF;
+    --light-border:#E0E0F0;
+    --light-text:#1A1A2E;
+    --light-muted:#6666AA;
+
+    --accent:#6C63FF;
+    --teal:#00D4AA;
+    --gold:#FFB800;
+    --rose:#FF4D7D;
+}
+
+.dark-theme{
+
+    --bg:var(--dark-bg);
+    --surface:var(--dark-surface);
+    --card:var(--dark-card);
+    --border:var(--dark-border);
+    --text:var(--dark-text);
+    --muted:var(--dark-muted);
+
+    background:var(--bg);
+    color:var(--text);
+}
+
+.light-theme{
+
+    --bg:var(--light-bg);
+    --surface:var(--light-surface);
+    --card:var(--light-card);
+    --border:var(--light-border);
+    --text:var(--light-text);
+    --muted:var(--light-muted);
+
+    background:var(--bg);
+    color:var(--text);
+}

@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    min-height:100vh;
+    transition:.3s;
+}
+
+button{
+    cursor:pointer;
+    border:none;
+    outline:none;
+}
+
+input,
+textarea,
+select{
+    outline:none;
+    border:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+#app{
+    padding-bottom:90px;
+}
+
+.page{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    border-radius:16px;
+    padding:20px;
+    margin-bottom:15px;
+}
+
+.btn{
+    padding:12px 20px;
+    border-radius:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+.hidden{
+    display:none;
+}

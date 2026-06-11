@@ -1,0 +1,70 @@
+<section class="page calculator-page">
+
+    <h1>Scientific Calculator ⌗</h1>
+
+    <div class="calc-display">
+
+        <div id="calcExpression"
+             class="calc-expression">
+        </div>
+
+        <div id="calcResult"
+             class="calc-result">
+            0
+        </div>
+
+    </div>
+
+    <div class="calculator-grid">
+
+        <button onclick="pressCalc('sin(')">sin</button>
+        <button onclick="pressCalc('cos(')">cos</button>
+        <button onclick="pressCalc('tan(')">tan</button>
+        <button onclick="backspace()">⌫</button>
+
+        <button onclick="pressCalc('log(')">log</button>
+        <button onclick="pressCalc('ln(')">ln</button>
+        <button onclick="pressCalc('sqrt(')">√</button>
+        <button onclick="pressCalc('^')">^</button>
+
+        <button onclick="pressCalc('(')">(</button>
+        <button onclick="pressCalc(')')">)</button>
+        <button onclick="pressCalc('%')">%</button>
+        <button onclick="pressCalc('/')">÷</button>
+
+        <button onclick="pressCalc('7')">7</button>
+        <button onclick="pressCalc('8')">8</button>
+        <button onclick="pressCalc('9')">9</button>
+        <button onclick="pressCalc('*')">×</button>
+
+        <button onclick="pressCalc('4')">4</button>
+        <button onclick="pressCalc('5')">5</button>
+        <button onclick="pressCalc('6')">6</button>
+        <button onclick="pressCalc('-')">−</button>
+
+        <button onclick="pressCalc('1')">1</button>
+        <button onclick="pressCalc('2')">2</button>
+        <button onclick="pressCalc('3')">3</button>
+        <button onclick="pressCalc('+')">+</button>
+
+        <button onclick="pressCalc('3.14159265')">π</button>
+        <button onclick="pressCalc('2.71828182')">e</button>
+        <button onclick="pressCalc('0')">0</button>
+        <button onclick="calculateResult()">=</button>
+
+        <button class="clear-btn"
+                onclick="clearCalc()">
+            C
+        </button>
+
+    </div>
+
+    <div class="calc-history">
+
+        <h3>History</h3>
+
+        <div id="historyList"></div>
+
+    </div>
+
+</section>

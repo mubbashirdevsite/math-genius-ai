@@ -1,0 +1,86 @@
+.formulas-page{
+    max-width:1000px;
+    margin:auto;
+}
+
+#formulaSearch{
+
+    width:100%;
+
+    padding:14px;
+
+    margin-bottom:20px;
+
+    border-radius:12px;
+
+    background:var(--surface);
+
+    color:var(--text);
+
+    border:1px solid var(--border);
+}
+
+.formula-card{
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    padding:20px;
+
+    margin-bottom:15px;
+}
+
+.formula-title{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+}
+
+.formula-expression{
+
+    display:inline-block;
+
+    padding:10px 15px;
+
+    border-radius:12px;
+
+    background:
+    rgba(108,99,255,.15);
+
+    color:var(--accent);
+
+    font-family:monospace;
+
+    margin-bottom:10px;
+}
+
+.formula-actions{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-top:15px;
+}
+
+.formula-actions button{
+
+    padding:8px 14px;
+
+    border-radius:10px;
+}
+
+.save-btn{
+    background:gold;
+}
+
+.copy-btn{
+    background:var(--accent);
+    color:white;
+}

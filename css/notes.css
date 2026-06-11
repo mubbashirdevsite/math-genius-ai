@@ -1,0 +1,24 @@
+
+.notes-page{
+    max-width:900px;
+    margin:auto;
+    padding:10px;
+}
+
+#notesBox{
+    width:100%;
+    height:400px;
+    padding:15px;
+    border:none;
+    border-radius:16px;
+    resize:vertical;
+    box-sizing:border-box;
+}
+
+.notes-page button{
+    margin-top:15px;
+    padding:12px 20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}

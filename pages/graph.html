@@ -1,0 +1,60 @@
+<section class="page graph-page">
+
+    <h1>Function Grapher ∿</h1>
+
+    <div class="graph-controls">
+
+        <label>
+            f(x)
+        </label>
+
+        <input
+            id="functionInput"
+            value="x*x"
+        >
+
+        <button
+            class="btn btn-primary"
+            onclick="drawGraph()">
+
+            Plot Graph
+
+        </button>
+
+    </div>
+
+    <canvas
+        id="graphCanvas"
+        width="900"
+        height="500">
+    </canvas>
+
+    <div class="quick-functions">
+
+        <button onclick="loadFunction('x*x')">
+            x²
+        </button>
+
+        <button onclick="loadFunction('x*x*x')">
+            x³
+        </button>
+
+        <button onclick="loadFunction('Math.sin(x)*5')">
+            sin(x)
+        </button>
+
+        <button onclick="loadFunction('Math.cos(x)*5')">
+            cos(x)
+        </button>
+
+        <button onclick="loadFunction('Math.abs(x)')">
+            |x|
+        </button>
+
+        <button onclick="loadFunction('1/x')">
+            1/x
+        </button>
+
+    </div>
+
+</section>

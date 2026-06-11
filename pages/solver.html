@@ -1,0 +1,78 @@
+<section class="page solver-page">
+
+    <h1>
+        AI Math Solver ✦
+    </h1>
+
+    <p class="solver-subtitle">
+        Solve any math problem instantly
+    </p>
+
+    <div class="solver-card">
+
+        <label>
+            Enter Problem
+        </label>
+
+        <textarea
+            id="problemInput"
+            placeholder="Example: x² - 5x + 6 = 0">
+        </textarea>
+
+        <div class="solver-actions">
+
+            <button
+                class="btn btn-primary"
+                onclick="solveProblem()">
+
+                ✦ Solve with AI
+
+            </button>
+
+            <button
+                class="btn btn-secondary"
+                onclick="clearProblem()">
+
+                Clear
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="examples">
+
+        <h3>Quick Examples</h3>
+
+        <button onclick="setExample('x²−5x+6=0')">
+            x²−5x+6=0
+        </button>
+
+        <button onclick="setExample('∫x²dx')">
+            ∫x²dx
+        </button>
+
+        <button onclick="setExample('sin(30°)')">
+            sin(30°)
+        </button>
+
+        <button onclick="setExample('2x+3y=7')">
+            2x+3y=7
+        </button>
+
+    </div>
+
+    <div id="solutionBox"
+         class="solution-box hidden">
+
+        <h2>
+            Solution
+        </h2>
+
+        <div id="solutionContent">
+        </div>
+
+    </div>
+
+</section>
